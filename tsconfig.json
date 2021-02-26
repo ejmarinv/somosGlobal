@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "sourceMap": true,
+      "outDir": "./build",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,                /* Report errors on unused locals. */
+      "noUnusedParameters": true,            /* Report errors on unused parameters. */
+      "noImplicitReturns": true,             /* Report error when not all code paths in function return a value. */
+      "noFallthroughCasesInSwitch": true,
+      "esModuleInterop": true,
+      "baseUrl": "./",
+      "paths": {
+        "~utils/*": [ "support/utils/*" ],
+        "~pages/*": [ "support/pages/*" ],
+        "~models/*": [ "support/models/*" ],
+        "~api_requests/*": [ "support/api_requests/*" ],
+        "~data/*": [ "support/data/*" ],
+        "~features/*": [ "features/*" ],
+        "~environments/*": [ "environments/*" ]
+      }
+    }
+  }
+  
